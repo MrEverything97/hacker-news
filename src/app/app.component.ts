@@ -38,5 +38,9 @@ export class AppComponent {
   deleteArticle(){
     this.article.pop();
   }
+
+  editArticle() {
+    this.article.splice(this.article.length - 1, 0);
+  }
 }
 
